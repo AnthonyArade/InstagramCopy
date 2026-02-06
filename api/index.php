@@ -1,19 +1,7 @@
 <?php
 
-// Enable error reporting for debugging
-ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
-error_reporting(E_ALL);
-
 // Ensure required storage directories exist in /tmp for Vercel serverless
 $dirs = [
-    '/tmp/views',
-    '/tmp/cache',
-    '/tmp/sessions',
-    '/tmp/framework/cache',
-    '/tmp/framework/sessions',
-    '/tmp/framework/views',
-    '/tmp/logs',
     '/tmp/storage/framework/cache',
     '/tmp/storage/framework/sessions',
     '/tmp/storage/framework/views',

@@ -521,7 +521,7 @@ export default function Dashboard() {
                         <p className="text-xs font-semibold uppercase text-gray-400 mb-4">Suggestions For You</p>
                         <div className="space-y-4">
                             {loadingSuggestions ? (
-                                <p className="text-xs text-gray-400 text-center py-2">Loading...</p>
+                                <p className="text-xs text-gray-400 text-center py-2">Loading... </p>
                             ) : suggestedUsers.length > 0 ? (
                                 suggestedUsers.map((user) => (
                                     <div key={user.id} className="flex items-center justify-between">

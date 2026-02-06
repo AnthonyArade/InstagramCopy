@@ -506,7 +506,7 @@ export default function Dashboard() {
                 </div>
 
                 {/* Sidebar for larger screens */}
-                <div className="hidden lg:block absolute right-0 top-0 w-80 h-screen p-6 mt-20 bg-gray-900">
+                <div className="hidden lg:block absolute right-0 top-0 w-80 h-screen p-6 bg-gray-900">
                     <Link href={route('users.profile', auth.user.id)} className="mb-8 block cursor-pointer hover:opacity-80 transition">
                         <div className="flex items-center gap-3 mb-6">
                             <div className="h-12 w-12 rounded-full bg-gradient-to-br from-yellow-400 to-pink-600" />
